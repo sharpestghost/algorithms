@@ -2,6 +2,7 @@
 /shelf/
 /workspace.xml
 *.class
+*.iml
 .gradle
 /build/
 
