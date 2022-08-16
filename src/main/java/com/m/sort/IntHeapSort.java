@@ -1,6 +1,6 @@
 package com.m.sort;
 
-public class HeapSort {
+public class IntHeapSort {
 
     public static void heapSort(int arr[]) {
         int n = arr.length;
