@@ -9,9 +9,10 @@ public class BubbleSort {
 
     public static void bubbleSort(Comparable arr[]) {
         /*
-        Bubble sort selects each element of the array from second to last
-        and compares it with the previous elements until it finds
-        the previous element that is smaller than the selected one.
+        Bubble sort comparing the current element with the one after it,
+        swapping their values if needed. This action is repeated until all
+        comparisons in one iteration have been completed without swaps,
+        which means that the array is sorted.
          */
         boolean needIteration = true;
         while (needIteration) {
